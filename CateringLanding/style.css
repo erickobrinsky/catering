@@ -44,3 +44,26 @@
 .navbar {
     margin-bottom: 20px;
 }
+
+.card{
+    box-shadow: 0 3px 15px rgba(0,0,0,0.7)
+    
+}
+
+.card:hover{
+    animation: shake 0.5s
+}
+
+img{
+    width: 100%;
+    height: 230px;
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    25% { transform: translate(-3px, 0px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    75% { transform: translate(-1px, -1px) rotate(1deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
