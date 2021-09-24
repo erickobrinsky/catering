@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Catering</title>
+</head>
+
+<body dir="rtl">
+
+    <!-- Contatct Form -->
+
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>צרו קשר למידע נוסף</h2> <!-- contact for more information -->
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form>
+                        <!-- Full Name -->
+                        <label for="fullname" class="form-label d-flex">שם מלא:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="די מסביר את עצמו באמת">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                            <input type="text" id="name" class="form-control" placeholder="למשל מריו" >
+                            <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                        </div>
+
+                        <!-- E-Mail -->
+
+                        <label for="email" class="form-label d-flex">כתובת דוא"ל:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title='הזן כתובת דוא"ל שנוכל להשיב לה'>
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                            <input type="email" id="email" class="form-control" placeholder="למשל מריו">
+                            <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                        </div>
+
+                        <!-- Type -->
+
+                        <label for="type" class="form-label d-flex" dir="rtl">Type:</label>
+                        <div class="input-group mb-4">
+                            <select id="type" class="form-select">
+                                <option value="בזאני" selected>Pricing Query</option>
+                                <option value="ג'לבי"> </option>
+                                <option value="other">Other Query</option>
+                            </select>
+                            <span class="input-group-text"><i class="bi bi-chat-right-dots-fill"></i></span>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
