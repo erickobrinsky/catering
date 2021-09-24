@@ -23,7 +23,9 @@
             <div class="row justify-content-center my-5">
                 <div class="col-lg-6">
                     <form>
+
                         <!-- Full Name -->
+
                         <label for="fullname" class="form-label d-flex">שם מלא:</label>
                         <div class="mb-4 input-group">
                             <span class="input-group-text">
@@ -31,7 +33,7 @@
                                     <i class="bi bi-question-circle text-muted"></i>
                                 </span>
                             </span>
-                            <input type="text" id="name" class="form-control" placeholder="למשל מריו" >
+                            <input type="text" id="name" class="form-control" placeholder="למשל מריו">
                             <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
                         </div>
 
@@ -50,14 +52,44 @@
 
                         <!-- Type -->
 
-                        <label for="type" class="form-label d-flex" dir="rtl">Type:</label>
+                        <label for="type" class="form-label d-flex">סוּג:</label>
                         <div class="input-group mb-4">
                             <select id="type" class="form-select">
-                                <option value="בזאני" selected>Pricing Query</option>
-                                <option value="ג'לבי"> </option>
-                                <option value="other">Other Query</option>
+                                <option value="בזאני" selected>בזאני</option>
+                                <option value="ג'לבי">ג'לבי</option>
+                                <option value="טִבעוֹנִי">טִבעוֹנִי</option>
                             </select>
                             <span class="input-group-text"><i class="bi bi-chat-right-dots-fill"></i></span>
+                        </div>
+
+                        <!-- Date -->
+
+                        <label for="type" class="form-label d-flex">תַאֲרִיך:</label>
+                        <div class="input-group mb-4">
+                            <input type="date" name="date" id="date" class="form-control"> <!-- date now js-->
+                        </div>
+
+                        <!-- Quantity -->
+
+                        <label for="qty" class="form-label d-flex">כַּמוּת:</label>
+                        <div class="input-group mb-4">
+                            <input type="number" name="qty" id="qty" min="0" max="100" class="form-control" dir="ltr">
+                            <span class="input-group-text"><i class="bi bi-cart-check-fill"></i></span>
+                        </div>
+
+                        
+                        <!-- Description -->
+
+                        <label for="description" class="form-label d-flex">תיאור:</label>
+                        <div class="input-group mb-4">
+                            <input type="description" id="description" class="form-control" placeholder="תיאור">
+                            <span class="input-group-text"><i class="bi bi-card-text"></i></span>
+                        </div>
+
+                        <!-- Sumbit -->
+
+                        <div class="mb-4 text-center">
+                            <button class="btn btn-secondary" type="submit">Sumbit</button>
                         </div>
 
                     </form>
