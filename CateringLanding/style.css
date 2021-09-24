@@ -67,3 +67,7 @@ img{
     75% { transform: translate(-1px, -1px) rotate(1deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+  .detail{
+    margin-top: 2.5rem;
+  }
