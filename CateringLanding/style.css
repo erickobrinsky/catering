@@ -71,3 +71,47 @@ img{
   .detail{
     margin-top: 2.5rem;
   }
+
+  .arrow::after{
+    margin-right: 0.5em;
+  }
+
+
+.container-image{
+  position: relative;
+  text-align:center;
+}
+
+.text-about-us,.text-detail-us{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-about-us{
+  top:25%;
+}
+
+.text-detail-us{
+  top:45%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 500px) {
+  .container-image{
+    height: 110vh;
+  }
+
+  .img-about{
+    display: none;
+  }
+
+  
+  .text-about-us{
+    top:7%
+  }
+
+  .text-detail-us{
+    top:55%
+  }
+}

@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Flags -->
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <title>Catering</title>
 </head>
@@ -25,46 +31,53 @@
 <body dir="rtl">
 
     <!--wsp-->
-    <a href="https://wa.me/+972546654316/?text=catering" class="whatsapp" target="_blank"> <i
-            class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/+972546654316/?text=catering"
+        class="whatsapp d-flex justify-content-center align-items-center" target="_blank"> <i
+            class="fab fa-whatsapp text-center"></i></a>
 
     <!--navBar-->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-            <a class="navbar-brand" href="#">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExample09">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#en" id="dropdown09"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
-                                class="flag-icon flag-icon-us"> </span> English</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown09">
-                            <a class="dropdown-item" href="#is"><span class="flag-icon flag-icon-il"> </span> Hebrew</a>
-                            <a class="dropdown-item" href="#en"><span class="flag-icon flag-icon-us"> </span>
-                                English</a>
-                            <a class="dropdown-item" href="#sp"><span class="flag-icon flag-icon-es"> </span>
-                                Spanish</a>
-                        </div>
-                    </li>
-                </ul>
+    <section class="bg-light" id="home">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+                <a class="navbar-brand text-muted" href="#home">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                    aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample09">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle arrow" href="#en" id="dropdown09" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                English <span class="me-0.5 flag-icon flag-icon-us"> </span></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                <a class="dropdown-item" href="#is"><span class="flag-icon flag-icon-il"> </span>
+                                    Hebrew</a>
+                                <a class="dropdown-item" href="#en"><span class="flag-icon flag-icon-us"> </span>
+                                    English</a>
+                                <a class="dropdown-item" href="#sp"><span class="flag-icon flag-icon-es"> </span>
+                                    Spanish</a>
+                            </div>
+                        </li>
+                    </ul>
 
-            </div>
-        </nav>
-    </div>
+                </div>
+            </nav>
+        </div>
 
+    </section>
     <!--carousel-->
 
     <section id="events">
@@ -131,7 +144,7 @@
 
     <!-- products -->
 
-    <section class="bg-light my-5" id="products">
+    <section class="bg-light my-8" id="products">
 
         <div class="container justify-content-center py-4">
             <div class="text-center">
@@ -194,33 +207,37 @@
 
     </section>
 
+    <!--About Us-->
+
     <section id="about">
-        <!--about us-->
-        <div class="container justify-content-center py-4">
-            <div class="w3-display-container w3-text-white">
-                <img src="images/about.jpg" alt="About" style="height:50%; opacity: 0.6;">
-                <div class="w3-display-middle w3-large">
-                    <h1 class="text-dark text-center ">About us</h1>
-                    <!-- <medium class="text-dark d-flex justify-content-center text-justify detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Atque
-                        dolore officia quam recusandae eaque asperiores doloribus, quae sint ducimus ullam molestias
-                        quod.
-                        Modi,
-                        veniam maxime ducimus aut debitis sunt accusamus alias eligendi quis adipisci doloribus
-                        reprehenderit
-                        eveniet fugiat fugit tempora quo, ex nihil numquam recusandae tempore? Dolorum maiores ratione
-                        vero.
-                    </medium> -->
-                </div>
-            </div>
+
+        <div class="container justify-content-center py-4 container-image">
+
+
+            <img src="./images/about.jpg" alt="About" style="height:50%; opacity: 0.6;" class="img-about" />
+
+            <h1 class="text-dark text-about-us">About us</h1>
+            <medium class="text-dark text-detail-us">Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit.
+                Atque
+                dolore officia quam recusandae eaque asperiores doloribus, quae sint ducimus ullam molestias
+                quod.
+                Modi,
+                veniam maxime ducimus aut debitis sunt accusamus alias eligendi quis adipisci doloribus
+                reprehenderit
+                eveniet fugiat fugit tempora quo, ex nihil numquam recusandae tempore? Dolorum maiores ratione
+                vero.
+            </medium>
+
+
         </div>
 
     </section>
 
     <!-- Contatct Form -->
 
-    <section id="contact">
-        <div class="container-lg">
+    <section id="contact" class="bg-light my-6">
+        <div class="container-lg justify-content-center py-4">
             <div class="text-center">
                 <h2>צרו קשר למידע נוסף</h2> <!-- contact for more information -->
             </div>
@@ -234,11 +251,11 @@
                         <div class="mb-4 input-group">
                             <span class="input-group-text">
                                 <span class="tt" data-bs-placement="bottom" title="די מסביר את עצמו באמת">
-                                    <i class="bi bi-question-circle text-muted"></i>
+                                    <i class="fas fa-comment-dots text-muted"></i>
                                 </span>
                             </span>
                             <input type="text" id="name" class="form-control" placeholder="למשל מריו">
-                            <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
                         </div>
 
                         <!-- E-Mail -->
@@ -247,11 +264,11 @@
                         <div class="mb-4 input-group">
                             <span class="input-group-text">
                                 <span class="tt" data-bs-placement="bottom" title='הזן כתובת דוא"ל שנוכל להשיב לה'>
-                                    <i class="bi bi-question-circle text-muted"></i>
+                                    <i class="fas fa-comment-dots text-muted"></i>
                                 </span>
                             </span>
                             <input type="email" id="email" class="form-control" placeholder="למשל מריו">
-                            <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
                         </div>
 
                         <!-- Type -->
@@ -263,7 +280,7 @@
                                 <option value="ג'לבי">ג'לבי</option>
                                 <option value="טִבעוֹנִי">טִבעוֹנִי</option>
                             </select>
-                            <span class="input-group-text"><i class="bi bi-chat-right-dots-fill"></i></span>
+                            <span class="input-group-text"><i class="fas fa-utensils"></i></span>
                         </div>
 
                         <!-- Date -->
@@ -278,7 +295,7 @@
                         <label for="qty" class="form-label d-flex">כַּמוּת:</label>
                         <div class="input-group mb-4">
                             <input type="number" name="qty" id="qty" min="0" max="100" class="form-control" dir="ltr">
-                            <span class="input-group-text"><i class="bi bi-cart-check-fill"></i></span>
+                            <span class="input-group-text"><i class="fas fa-shopping-cart"></i></span>
                         </div>
 
 
@@ -286,8 +303,8 @@
 
                         <label for="description" class="form-label d-flex">תיאור:</label>
                         <div class="input-group mb-4">
-                            <input type="description" id="description" class="form-control" placeholder="תיאור">
-                            <span class="input-group-text"><i class="bi bi-card-text"></i></span>
+                            <textarea name="description" id="description" cols="10" rows="4" placeholder="תיאור"
+                                class="form-control"></textarea>
                         </div>
 
                         <!-- Sumbit -->
@@ -304,13 +321,13 @@
 
 
 
-
+    <!-- Footer -->
 
     <footer class="bg-dark text-center text-white">
         <div class="container p-4 pb-0">
             <section class="mb-4">
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
+                        class="fab fa-facebook"></i></a>
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
                         class="fab fa-google"></i></a>
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
@@ -326,9 +343,6 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
